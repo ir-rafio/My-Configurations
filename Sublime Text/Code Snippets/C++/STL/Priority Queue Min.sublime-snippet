@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-priority_queue<${1:int}, std::vector<$1>, std::greater<$1>> 
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>qmin</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.c++</scope>
-</snippet>

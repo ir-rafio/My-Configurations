@@ -1,0 +1,5 @@
+eslint
+prettier
+eslint-config-prettier
+eslint-plugin-prettier
+eslint-plugin-eslint-plugin

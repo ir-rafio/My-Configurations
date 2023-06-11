@@ -1,0 +1,70 @@
+{
+  // editor
+  "editor.tabSize": 2,
+  "editor.indentSize": "tabSize",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+
+  // theme
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Andromeda Colorizer",
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#FFCDF0",
+    "terminalCursor.foreground": "#FFCDF0"
+  },
+
+  // explorer
+  "files.exclude": {
+    "**/node_modules": true,
+    "__pycache__": true
+  },
+
+  // cursor
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorWidth": 3,
+  "terminal.integrated.cursorBlinking": true,
+
+  // code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  },
+
+  "eslint.options": {
+    "rules": {
+      "linebreak-style": "off",
+      "prettier/prettier": [
+        "error",
+        {
+          "endOfLine": "auto",
+          "singleQuote": true,
+          "semi": true
+        }
+      ]
+    }
+  },
+  "prettier.endOfLine": "auto",
+  "prettier.singleQuote": true,
+  "prettier.semi": true
+}
