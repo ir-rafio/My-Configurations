@@ -1,12 +1,15 @@
 {
   // inp.txt: Input file
   // outp.txt: Output file
-  // ${file_path}/${file_base_name}: Executable file [Use .exe extension in Windows]
-  "cmd": [
-    "g++", "$file", "-o", "${file_path}/${file_base_name}", "&&",
-    "${file_path}/${file_base_name}", "<", "inp.txt", ">", "outp.txt"
-  ],
+
+  "shell_cmd": "g++ $file -o $file_base_name && ./$file_base_name < inp.txt > outp.txt && rm $file_base_name",
+  "working_dir": "$file_path",
   "selector": "source.c++",
-  "shell": true,
-  "working_dir": "$file_path"
+
+  "variants": [
+    {
+      "name": "Windows",
+      "shell_cmd": "g++ $file -o $file_base_name.exe && $file_base_name.exe < inp.txt > outp.txt && del $file_base_name.exe"
+    }
+  ]
 }
