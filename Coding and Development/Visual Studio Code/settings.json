@@ -37,13 +37,9 @@
   // code formatting
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "[javascript]": {
-    "editor.formatOnSave": false,
-    "editor.defaultFormatter": null
-  },
-  "[javascriptreact]": {
-    "editor.formatOnSave": false,
-    "editor.defaultFormatter": null
+  "[prisma]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Prisma.prisma"
   },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,

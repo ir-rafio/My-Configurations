@@ -4,20 +4,17 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// #define int long long
+#define int long long
 #define fastio ios_base::sync_with_stdio(0); cin.tie(0)
 #define endl "\n"
 
-string scs="0";
-int temp;
 
-$2
 
 void pre()
 {
     fastio;
 
-    $3
+    
 }
 
 void clear()
