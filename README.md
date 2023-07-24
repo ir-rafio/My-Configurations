@@ -6,7 +6,7 @@ This repository contains my personal setup configurations for various tools and 
 
 The repository is organized into directories, each corresponding to a specific tool or environment. Within each directory, you'll find detailed instructions, configurations, and setup guides for the respective tool.
 
-#### Note: This repository will be updated as I make changes and improvements to my configurations. Feel free to check back for updates or follow the repository to receive notifications.
+#### Note: This repository will be updated as I make changes and improvements to my configurations.
 
 ## Contributing
 
