@@ -4,9 +4,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define int long long
 #define fastio ios_base::sync_with_stdio(0); cin.tie(0)
-#define endl "\n"
+using LL = long long;
 
 
 
@@ -17,29 +16,23 @@ void pre()
     
 }
 
-void clear()
-{
-    
-}
-
 void solve(int tc)
 {
-    clear();
-    
     $0
 }
 
-signed main()
+int main()
 {
     pre();
 
-    int tc, tt=1;
+    int tc, tt = 1;
     cin >> tt;$1
     
-    for(tc=1; tc<=tt; tc++)
+    for(tc = 1; tc <= tt; tc++)
     {
+        // cout << "Case " << tc << ": ";
         solve(tc);
-        cout << endl;$1
+        cout << '\n';$1
     }
 
     return 0;
